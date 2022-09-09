@@ -1,0 +1,40 @@
+form {
+    position: relative;
+    background: #eee;
+    border: 3px solid darkgray;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+form span {
+    display: block;
+    width: 80px;
+    background: #eee;
+    margin: 10px 3px 3px 8px;
+}
+
+form input, form select {
+    width: 150px;
+    height: 20px;
+    margin: 0px 5px;
+    box-sizing: border-box;
+}
+
+form select {
+    margin: 1px;
+}
+
+form input[type='submit'] {
+    display: block;
+    margin: 10px 0px 12px 40px;
+    width: 80px;
+    height: 30;
+}
+
+.container {
+    position: absolute;
+    margin-top: -150px;
+    top: 50%;
+    width: 100%;
+}
