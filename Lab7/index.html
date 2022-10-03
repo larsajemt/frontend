@@ -1,0 +1,47 @@
+<HTML>
+	<HEAD>
+		<meta name="description" content="Lab7">
+		<meta name="keywords" content="HTML, CSS, JavaScript">
+		<meta name="author" content="Lars-Erik Jemt">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Lab 7 - JS DOM interaction</title>
+	  	
+	</HEAD>
+	<BODY>
+        <h1 id="demo"> Java Script lab 7</h1>
+		<p id="paragraf">"Denna paragraf är gammal och måste uppdateras."</p>
+		<button id="button">Ändra text</button>
+
+		<a id="link" href="https://example.com" target="_blank">En länk</a>
+		<br/>
+		<br/>
+		<button id="button" onclick="changeLink('https://google.com');">Ändra länk</button>
+
+
+			<div>
+
+				<h1>Räkna ut volym</h1>
+				<p> Bredd:</p>
+				<input type="number" id="width">
+				<p> Höjd:</p>
+				<input type="number" id="height">
+				<p> Längd:</p>
+				<input type="number" id="length">
+				<br/>
+				<br/>
+				<input onclick="kub(document.getElementById('width').value,
+									document.getElementById('height').value,
+									document.getElementById('length').value)" 
+									type="button" value="Räkna ut"></input>
+
+			</div>
+			<br/>
+			<div id="result"></div>
+	
+
+
+        <script src="myScript.js">
+		</script>
+    </BODY>
+</HTML>
