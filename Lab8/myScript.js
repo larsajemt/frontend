@@ -27,6 +27,7 @@
         return false;
     }
     */
+   
     if (document.getElementById("select").value == "value0") {
         alert("Välj ett av select alternativen!");
         document.getElementById("select").focus();
