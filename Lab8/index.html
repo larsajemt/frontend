@@ -1,0 +1,46 @@
+<HTML>
+	<HEAD>
+		<meta name="description" content="Lab8">
+		<meta name="keywords" content="HTML, CSS, JavaScript">
+		<meta name="author" content="Lars-Erik Jemt">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Lab 8 - JS form / validation övning</title>
+	  	
+	</HEAD>
+	<BODY>
+		<BODY>
+			<form onsubmit="return validateForm()" action="result.html">
+				<h1>Validation</h1>
+				<h2>Fyll i formuläret nedan.</h2>
+				<p> Text:</p>
+				<input type="text" id="text">
+				<p> Email:</p>
+				<input type="email" id="email">
+				<p> Select:</p>
+				<select id="select">
+					<option value="value0" selected=true></option>
+					<option value="value1">Value 1</option>
+					<option value="value2">Value 2</option>
+					<option value="value3">Value 3</option>
+					<option value="value4">Value 4</option>
+				</select>
+				  
+				<p> Checkbox:</p>
+				<input type="checkbox" id="checkbox">
+				<p> Radio buttons:</p>
+				<input type="radio" name="radio"> Option 1
+				<br>
+				<input type="radio" name="radio"> Option 2
+				<br>
+				<input type="radio" name="radio"> Option 3
+				<br/>
+				<br/>
+				<input type="submit" value="Submit"></input>
+			</form>
+		</BODY>
+	
+        <script src="myScript.js">
+		</script>
+    </BODY>
+</HTML>
